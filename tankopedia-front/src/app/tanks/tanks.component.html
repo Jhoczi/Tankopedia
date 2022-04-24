@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-12">
+    <h1>Tanks:</h1>
+    <h2>{{tank.name | uppercase}} Details</h2>
+    <div>
+  <span>
+    Id:{{tank.id}}
+  </span>
+    </div>
+    <div>
+      <label for="name">Tank name:</label>
+      <input id="name" [(ngModel)]="tank.name" placeholder="name">
+    </div>
+  </div>
+
+</div>
+
+
