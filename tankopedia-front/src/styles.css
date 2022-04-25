@@ -264,6 +264,11 @@ svg#clouds {
   width: 1920px;
 }
 
+.application-content-margin
+{
+  margin:0 10% 0 10%;
+}
+
 /* Responsive Styles */
 @media screen and (max-width: 767px) {
   .card-container > *:not(.circle-link) ,
