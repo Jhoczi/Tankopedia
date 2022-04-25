@@ -7,7 +7,7 @@
     <div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed" [attr.aria-expanded]="!isCollapsed" class="collapse navbar-collapse">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Tanks</a>
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
@@ -15,7 +15,7 @@
       </ul>
       <form class="d-flex ml-auto">
         <input id="typeahead-format" type="text" class="form-control mr-2" [(ngModel)]="searchModel" [ngbTypeahead]="search" [resultFormatter]="formatter" placeholder="Search a tank..."/>
-        <button class="btn btn-success" type="submit">Search</button>
+        <button class="btn btn-info" type="submit">Search</button>
         <!--          <pre>Model: {{ searchModel | json }}</pre>-->
       </form>
     </div>
