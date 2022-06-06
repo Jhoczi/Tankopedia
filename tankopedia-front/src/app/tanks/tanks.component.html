@@ -1,18 +1,22 @@
-<div class="row">
-  <div class="col-12">
-    <h1>Tanks:</h1>
-    <h2>{{tank.name | uppercase}} Details</h2>
-    <div>
-  <span>
-    Id:{{tank.id}}
-  </span>
-    </div>
-    <div>
-      <label for="name">Tank name:</label>
-      <input id="name" [(ngModel)]="tank.name" placeholder="name">
+<div class="col-sm-12 col-md-4">
+  <div class="card">
+    <img src="assets/kv-1.png" class="card-img-top" alt="...">
+    <div class="card-body border-top bg-dark text-white">
+      <h5 class="card-title text-center">{{tank.name | uppercase}}</h5>
+<!--      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+      <a href="#" class="btn btn-info w-100">Details</a>
     </div>
   </div>
-
+<!--  <h2>{{tank.name | uppercase}} Details</h2>-->
+<!--  <div>-->
+<!--  <span>-->
+<!--    Id:{{tank.id}}-->
+<!--  </span>-->
+<!--  </div>-->
+<!--  <div>-->
+<!--    <label for="name">Tank name:</label>-->
+<!--    <input id="name" [(ngModel)]="tank.name" placeholder="name">-->
+<!--  </div>-->
 </div>
 
 
